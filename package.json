@@ -14,14 +14,15 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  },
   "meteor": {
     "mainModule": {
       "client": "client/main.jsx",
       "server": "server/main.js"
     },
-    "testModule": "tests/main.js"
-  },
-  "devDependencies": {
-    "prettier": "3.3.3"
+    "testModule": "tests/main.js",
+    "modern": true
   }
 }
